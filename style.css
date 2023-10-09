@@ -1,0 +1,38 @@
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+h1, p {
+    text-align: center;    
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    background-color: teal;
+    margin: 32px auto;
+    padding: 20px 16px;
+}
+
+section img{
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+section ol, section ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0; 
+    color: #fff;
+}
+
+
+
